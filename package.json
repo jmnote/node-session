@@ -1,7 +1,9 @@
 {
-  "name": "express-session",
-  "version": "0.0.0",
-  "private": true,
+  "name": "node-session",
+  "version": "1.0.0",
+  "description": "node-session by jmnote",
+  "author": "jmnote",
+  "license": "ISC",
   "scripts": {
     "start": "node ./bin/www"
   },
