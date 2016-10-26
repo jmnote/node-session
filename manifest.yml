@@ -1,10 +1,10 @@
 ---
 applications:
-- name: node-session
+- name: session
   memory: 32M
   command: node ./bin/www
   instances: 1
-  # host: session
-  random-route: true
+  host: session00
+  # random-route: true
   buildpack: https://github.com/cloudfoundry/nodejs-buildpack
 
