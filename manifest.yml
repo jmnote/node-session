@@ -1,7 +1,7 @@
 ---
 applications:
 - name: session
-  memory: 32M
+  memory: 64M
   command: node ./bin/www
   instances: 1
   host: session00
